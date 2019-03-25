@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="game.raminduweeraman.colour.memory.com.colourgame">
+
+    <application
+
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+        <activity
+            android:name=".ColourMemoryGameActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScoreListActivity"
+            android:label="@string/high_score_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog">
+
+
+        </activity>
+    </application>
+
+</manifest>

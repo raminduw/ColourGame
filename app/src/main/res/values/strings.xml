@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ColourMemory</string>
+
+
+    <string name="save_score_title">Save Score</string>
+    <string name="save_score_message">Enter your username and save the score</string>
+    <string name="username_empty_error">Please add username !</string>
+    <string name="high_score_title"> High Scores</string>
+    <string name="ok"> OK</string>
+    <string name="high_scores_not_available"> High Scores not Available</string>
+    <string name="score"> Score</string>
+    <string name="username_hint"> Username</string>
+
+
+</resources>
